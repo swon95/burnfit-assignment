@@ -1,10 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import CalCal from './Calendar/CalCal'
 
 export const Calendar = () => {
+    
     return (
         <View style={styles.container}>
-            <Text>Calendar</Text>
+            <CalCal/>
         </View>
     )
 };
